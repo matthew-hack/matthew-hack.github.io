@@ -5,6 +5,7 @@ project:
 
 website:
   title: "Matthew Hack"
+  site-url: "https://matthew-hack.github.io"
   description: "Academic research in ecology and evolution"
   search: false
   
