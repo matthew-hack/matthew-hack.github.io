@@ -1,0 +1,173 @@
+
+/* css styles */
+
+/* =========================================
+   HOMEPAGE NAVIGATION BANNER
+   ========================================= */
+
+#quarto-header .navbar {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)),
+    url("images/cover_photo.jpeg") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-color: #333;
+  padding: 0;
+  min-height: 500px;
+}
+
+#quarto-header .navbar-container {
+  position: relative;
+  min-height: 500px;
+  height: 500px;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1.25rem 2rem;
+}
+
+/* Homepage name */
+#quarto-header .navbar-brand {
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
+#quarto-header .navbar-brand::after {
+  content: "Matthew Hack";
+  display: block;
+  color: white;
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Navigation links */
+#quarto-header .navbar-collapse {
+  width: auto;
+  flex-grow: 0;
+  margin-left: auto;
+}
+
+#quarto-header .navbar-nav {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  justify-content: flex-end;
+}
+
+#quarto-header .nav-link {
+  color: white !important;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+#quarto-header .nav-link:hover {
+  color: #dddddd !important;
+}
+
+/* Mobile navigation button */
+#quarto-header .navbar-toggler {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border-color: white;
+}
+
+#quarto-header .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+
+/* =========================================
+   SECONDARY PAGE BANNERS
+   ========================================= */
+
+/* Shared banner image and dimensions */
+.research-page #quarto-header .navbar,
+.pedagogy-page #quarto-header .navbar,
+.publications-page #quarto-header .navbar,
+.contact-page #quarto-header .navbar {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)),
+    url("images/landscape.jpeg") !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-color: #333;
+  min-height: 280px;
+}
+
+.research-page #quarto-header .navbar-container,
+.pedagogy-page #quarto-header .navbar-container,
+.publications-page #quarto-header .navbar-container,
+.contact-page #quarto-header .navbar-container {
+  min-height: 280px;
+  height: 280px;
+}
+
+/* Shared secondary-page title positioning */
+.research-page #quarto-header .navbar-brand,
+.pedagogy-page #quarto-header .navbar-brand,
+.publications-page #quarto-header .navbar-brand,
+.contact-page #quarto-header .navbar-brand {
+  top: 50%;
+  left: 25%;
+}
+
+/* Individual page titles */
+.research-page #quarto-header .navbar-brand::after {
+  content: "Research";
+}
+
+.pedagogy-page #quarto-header .navbar-brand::after {
+  content: "Pedagogy & Outreach";
+}
+
+.publications-page #quarto-header .navbar-brand::after {
+  content: "Publications & CV";
+}
+
+.contact-page #quarto-header .navbar-brand::after {
+  content: "Contact";
+}
+
+
+/* =========================================
+   HOMEPAGE PROFILE COLUMNS
+   ========================================= */
+
+.columns {
+  margin-top: 2rem;
+}
+
+/* =========================================
+   SECONDARY PAGE CONTENT
+   ========================================= */
+
+/* Center titles in secondary-page banners */
+.research-page #quarto-header .navbar-brand,
+.pedagogy-page #quarto-header .navbar-brand,
+.publications-page #quarto-header .navbar-brand,
+.contact-page #quarto-header .navbar-brand {
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+/* Hide duplicate page title blocks */
+.research-page #title-block-header,
+.pedagogy-page #title-block-header,
+.publications-page #title-block-header,
+.contact-page #title-block-header {
+  display: none !important;
+}

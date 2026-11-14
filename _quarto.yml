@@ -1,0 +1,32 @@
+
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Matthew Hack"
+  description: "Academic research in ecology and evolution"
+  search: false
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: pedagogy.qmd
+        text: Pedagogy & Outreach
+      - href: publications.qmd
+        text: Publications & CV
+      - href: contact.qmd
+        text: Contact
+
+  page-footer:
+    center: "all images © Matthew Hack"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    smooth-scroll: true
