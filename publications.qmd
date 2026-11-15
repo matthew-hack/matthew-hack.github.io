@@ -37,7 +37,7 @@ format:
 
 ### **Contributed Presentations**
 
-<small>(*Travel award recipient)</small>
+<small>(&ast;Travel award recipient)</small>
 
 9. **MD Hack**, A Benavides C, NW Cooper, ML Witynski, BM Winger. Comparative patterns in annual cycle timing and structure of North American migratory passerines. American Ornithological Society, Amherst, Massachusetts (2026). *(Talk)*<sup>*</sup>
 
