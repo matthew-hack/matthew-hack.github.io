@@ -37,9 +37,9 @@ format:
 
 ### **Contributed Presentations**
 
-<small>(*Travel award recipient*)</small>
+<small>(**Travel award recipient*)</small>
 
-9.  **MD Hack**<sup></sup>, A Benavides C, NW Cooper, ML Witynski, BM Winger. Comparative patterns in annual cycle timing and structure of North American migratory passerines. American Ornithological Society, Amherst, Massachusetts (2026). (Talk)\*
+9.  **MD Hack**<sup></sup>, A Benavides C, NW Cooper, ML Witynski, BM Winger. Comparative patterns in annual cycle timing and structure of North American migratory passerines. American Ornithological Society, Amherst, Massachusetts (2026). *(Talk)\**
 
 <!-- -->
 
@@ -47,15 +47,15 @@ format:
 
 <!-- -->
 
-7.  **MD Hack**<sup></sup>, A Benavides C, NW Cooper, ML Witynski, BM Winger. Comparative patterns in annual cycle structure of North American terrestrial migratory birds. American Ornithological Society, St. Louis, Missouri (2025). (Talk)\*
+7.  **MD Hack**<sup></sup>, A Benavides C, NW Cooper, ML Witynski, BM Winger. Comparative patterns in annual cycle structure of North American terrestrial migratory birds. American Ornithological Society, St. Louis, Missouri (2025). *(Talk)\**
 
 <!-- -->
 
-6.  **MD Hack**<sup></sup>, BM Winger. The spatiotemporal effects of seasonal migration on avian community assembly. American Ornithological Society, Estes Park, Colorado (2024). (Talk)\*
+6.  **MD Hack**<sup></sup>, BM Winger. The spatiotemporal effects of seasonal migration on avian community assembly. American Ornithological Society, Estes Park, Colorado (2024). *(Talk)\**
 
 <!-- -->
 
-5.  **MD Hack**<sup></sup>, BM Winger. The spatiotemporal effects of seasonal migration on avian community assembly. American Ornithological Society, London, Ontario (2023). (Poster)\*
+5.  **MD Hack**<sup></sup>, BM Winger. The spatiotemporal effects of seasonal migration on avian community assembly. American Ornithological Society, London, Ontario (2023). *(Poster)\**
 
 <!-- -->
 
@@ -63,7 +63,7 @@ format:
 
 <!-- -->
 
-3.  **MD Hack**<sup></sup>, JD Sullivan, DJ Prosser. Quantifying the forage base and critical forage taxa for Chesapeake waterbirds. American Ornithological Society, San Juan, Puerto Rico (2022). (Poster)\*
+3.  **MD Hack**<sup></sup>, JD Sullivan, DJ Prosser. Quantifying the forage base and critical forage taxa for Chesapeake waterbirds. American Ornithological Society, San Juan, Puerto Rico (2022). *(Poster)\**
 
 <!-- -->
 
