@@ -8,7 +8,7 @@ format:
 
 <p style="text-align: center; margin: 25px 0 40px 0;">
 
-<a href="files/Matthew_Hack_CV.pdf" download
+<a href="Matthew_Hack_CV.pdf" download
      style="font-size: 1.1em; font-weight: bold;"> Download CV (PDF) </a>
 
 </p>
