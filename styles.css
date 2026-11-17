@@ -171,3 +171,36 @@
 .contact-page #title-block-header {
   display: none !important;
 }
+
+
+/* Mobile-friendly adjustments */
+
+@media (max-width: 768px) {
+
+  /* Improve page margins */
+  .page-columns {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Make headings more manageable */
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  /* Ensure images fit the screen */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Improve paragraph readability */
+  p {
+    line-height: 1.6;
+  }
+
+}
