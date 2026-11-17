@@ -172,3 +172,164 @@
   display: none !important;
 }
 
+
+
+/* =========================================
+   MOBILE RESPONSIVE ADJUSTMENTS
+   ========================================= */
+
+@media (max-width: 768px) {
+
+  /* -----------------------------------------
+     HOMEPAGE BANNER
+     ----------------------------------------- */
+
+  #quarto-header .navbar {
+    min-height: 350px;
+    background-position: center center !important;
+  }
+
+  #quarto-header .navbar-container {
+    min-height: 350px;
+    height: 350px;
+    padding: 1rem;
+  }
+
+  /* Center homepage name */
+  .home-page #quarto-header .navbar-brand {
+    left: 50% !important;
+    top: 52% !important;
+    transform: translate(-50%, -50%) !important;
+    width: calc(100% - 30px);
+    text-align: center;
+  }
+
+  .home-page #quarto-header .navbar-brand::after {
+    font-size: clamp(1.8rem, 7vw, 2.4rem);
+    white-space: normal;
+    line-height: 1.2;
+  }
+
+  /* -----------------------------------------
+     SECONDARY PAGE BANNERS
+     ----------------------------------------- */
+
+  .research-page #quarto-header .navbar,
+  .pedagogy-page #quarto-header .navbar,
+  .publications-page #quarto-header .navbar,
+  .contact-page #quarto-header .navbar {
+    min-height: 220px;
+    background-position: center center !important;
+  }
+
+  .research-page #quarto-header .navbar-container,
+  .pedagogy-page #quarto-header .navbar-container,
+  .publications-page #quarto-header .navbar-container,
+  .contact-page #quarto-header .navbar-container {
+    min-height: 220px;
+    height: 220px;
+  }
+
+  /* Allow secondary page titles to fit */
+  .research-page #quarto-header .navbar-brand,
+  .pedagogy-page #quarto-header .navbar-brand,
+  .publications-page #quarto-header .navbar-brand,
+  .contact-page #quarto-header .navbar-brand {
+    left: 50% !important;
+    top: 55% !important;
+    transform: translate(-50%, -50%) !important;
+    width: calc(100% - 30px);
+    text-align: center;
+  }
+
+  .research-page #quarto-header .navbar-brand::after,
+  .pedagogy-page #quarto-header .navbar-brand::after,
+  .publications-page #quarto-header .navbar-brand::after,
+  .contact-page #quarto-header .navbar-brand::after {
+    font-size: clamp(1.4rem, 5.5vw, 2rem);
+    white-space: normal;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  /* Keep mobile navigation button visible */
+  #quarto-header .navbar-toggler {
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 10;
+  }
+
+  /* -----------------------------------------
+     HOMEPAGE PROFILE IMAGE AND COLUMNS
+     ----------------------------------------- */
+
+  .home-page .columns {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .home-page .columns > .column {
+    width: 100% !important;
+    flex: 0 0 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .home-page .columns img {
+    display: block;
+    width: 75% !important;
+    max-width: 320px;
+    height: auto !important;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  /* -----------------------------------------
+     PEDAGOGY PAGE IMAGES
+     ----------------------------------------- */
+
+  .pedagogy-page img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Prevent fixed-height images from overflowing */
+  .pedagogy-page table {
+    width: 100% !important;
+    table-layout: fixed;
+  }
+
+  .pedagogy-page table td {
+    width: 50%;
+    padding: 5px;
+  }
+
+  .pedagogy-page table img {
+    max-width: 100%;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* Center and constrain standalone images */
+  .pedagogy-page img {
+    max-width: 100%;
+  }
+
+  /* -----------------------------------------
+     GENERAL MOBILE CONTENT
+     ----------------------------------------- */
+
+  .page-columns {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .pedagogy-page p,
+  .pedagogy-page li {
+    overflow-wrap: break-word;
+  }
+
+}

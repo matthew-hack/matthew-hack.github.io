@@ -2,6 +2,7 @@
 title: ""
 format:
   html:
+    body-classes: home-page
     title-block: false
 ---
 
