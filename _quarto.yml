@@ -26,11 +26,37 @@ website:
         text: Contact
 
   page-footer:
+    background: "#6B9FB2"
+    foreground: "#FFFFFF"
     center: "all images © Matthew Hack"
-
+    right: |
+      <div class="footer-social">
+        <a href="mailto:hackm@umich.edu" aria-label="Email">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://bsky.app/profile/matthewhack.bsky.social" aria-label="Bluesky">
+          <i class="fa-brands fa-bluesky"></i>
+        </a>
+        <a href="https://github.com/matthew-hack" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.researchgate.net/profile/Matthew-Hack" aria-label="ResearchGate">
+          <i class="ai ai-researchgate"></i>
+        </a>
+        <a href="https://orcid.org/my-orcid?orcid=0000-0001-7898-4458" aria-label="ORCID">
+          <i class="ai ai-orcid"></i>
+        </a>
+        <a href="https://scholar.google.com/citations?user=uP1ckVAAAAAJ&hl=en" aria-label="Google Scholar">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </div>
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
     smooth-scroll: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.4/css/academicons.min.css">
